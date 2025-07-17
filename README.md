@@ -1,104 +1,104 @@
-# LibreTV - 免费在线视频搜索与观看平台
+# LibreTV - 免費在線視頻搜索與觀看平台
 
 <div align="center">
   <img src="image/logo.png" alt="LibreTV Logo" width="120">
   <br>
-  <p><strong>自由观影，畅享精彩</strong></p>
+  <p><strong>自由觀影，暢享精彩</strong></p>
 </div>
 
-## 📺 项目简介
+## 📺 項目簡介
 
-LibreTV 是一个轻量级、免费的在线视频搜索与观看平台，提供来自多个视频源的内容搜索与播放服务。无需注册，即开即用，支持多种设备访问。项目结合了前端技术和后端代理功能，可部署在支持服务端功能的各类网站托管服务上。**项目门户**： [libretv.is-an.org](https://libretv.is-an.org)
+LibreTV 是一個輕量級、免費的在線視頻搜索與觀看平台，提供來自多個視頻源的內容搜索與播放服務。無需注冊，即開即用，支持多種設備訪問。項目結合了前端技術和後端代理功能，可部署在支持服務端功能的各類網站托管服務上。**項目門戶**： [libretv.is-an.org](https://libretv.is-an.org)
 
-本项目基于 [bestK/tv](https://github.com/bestK/tv) 进行重构与增强。
+本項目基於 [bestK/tv](https://github.com/bestK/tv) 進行重構與增強。
 
 <details>
-  <summary>点击查看项目截图</summary>
-  <img src="https://github.com/user-attachments/assets/df485345-e83b-4564-adf7-0680be92d3c7" alt="项目截图" style="max-width:600px">
+  <summary>點擊查看項目截圖</summary>
+  <img src="https://github.com/user-attachments/assets/df485345-e83b-4564-adf7-0680be92d3c7" alt="項目截圖" style="max-width:600px">
 </details>
 
-## 🥇 感谢赞助
+## 🥇 感謝讚助
 
 - **[YXVM](https://yxvm.com)**  
 - **[ZMTO/VTEXS](https://zmto.com)**
 
 ## 🚀 快速部署
 
-选择以下任一平台，点击一键部署按钮，即可快速创建自己的 LibreTV 实例：
+選擇以下任一平台，點擊一鍵部署按鈕，即可快速創建自己的 LibreTV 實例：
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLibreSpark%2FLibreTV)  
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LibreSpark/LibreTV)  
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LibreSpark/LibreTV)
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/LibreSpark/LibreTV)
 
-## ⚠️ 安全与隐私提醒
+## ⚠️ 安全與隱私提醒
 
-### 🔒 强烈建议设置密码保护
+### 🔒 強烈建議設置密碼保護
 
-为了您的安全和避免潜在的法律风险，我们**强烈建议**在部署时设置密码保护：
+為了您的安全和避免潛在的法律風險，我們**強烈建議**在部署時設置密碼保護：
 
-- **避免公开访问**：不设置密码的实例任何人都可以访问，可能被恶意利用
-- **防范版权风险**：公开的视频搜索服务可能面临版权方的投诉举报
-- **保护个人隐私**：设置密码可以限制访问范围，保护您的使用记录
+- **避免公開訪問**：不設置密碼的實例任何人都可以訪問，可能被惡意利用
+- **防範版權風險**：公開的視頻搜索服務可能面臨版權方的投訴舉報
+- **保護個人隱私**：設置密碼可以限制訪問範圍，保護您的使用記錄
 
-### 📝 部署建议
+### 📝 部署建議
 
-1. **设置环境变量 `PASSWORD`**：为您的实例设置一个强密码
-2. **仅供个人使用**：请勿将您的实例链接公开分享或传播
-3. **遵守当地法律**：请确保您的使用行为符合当地法律法规
+1. **設置環境變量 `PASSWORD`**：為您的實例設置一個強密碼
+2. **僅供個人使用**：請勿將您的實例鏈接公開分享或傳播
+3. **遵守當地法律**：請確保您的使用行為符合當地法律法規
 
-### 🚨 重要声明
+### 🚨 重要聲明
 
-- 本项目仅供学习和个人使用
-- 请勿将部署的实例用于商业用途或公开服务
-- 如因公开分享导致的任何法律问题，用户需自行承担责任
-- 项目开发者不对用户的使用行为承担任何法律责任
+- 本項目僅供學習和個人使用
+- 請勿將部署的實例用於商業用途或公開服務
+- 如因公開分享導致的任何法律問題，用戶需自行承擔責任
+- 項目開發者不對用戶的使用行為承擔任何法律責任
 
-## ⚠️ 请勿使用 Pull Bot 自动同步
+## ⚠️ 請勿使用 Pull Bot 自動同步
 
-Pull Bot 会反复触发无效的 PR 和垃圾邮件，严重干扰项目维护。作者可能会直接拉黑所有 Pull Bot 自动发起的同步请求的仓库所有者。
+Pull Bot 會反覆觸發無效的 PR 和垃圾郵件，嚴重幹擾項目維護。作者可能會直接拉黑所有 Pull Bot 自動發起的同步請求的倉庫所有者。
 
-**推荐做法：**
+**推薦做法：**
 
-建议在 fork 的仓库中启用本仓库自带的 GitHub Actions 自动同步功能（见 `.github/workflows/sync.yml`）。 
+建議在 fork 的倉庫中啟用本倉庫自帶的 GitHub Actions 自動同步功能（見 `.github/workflows/sync.yml`）。 
 
-如需手动同步主仓库更新，也可以使用 GitHub 官方的 [Sync fork](https://docs.github.com/cn/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) 功能。
+如需手動同步主倉庫更新，也可以使用 GitHub 官方的 [Sync fork](https://docs.github.com/cn/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) 功能。
 
 
-## 📋 详细部署指南
+## 📋 詳細部署指南
 
 ### Cloudflare Pages
 
-1. Fork 或克隆本仓库到您的 GitHub 账户
-2. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)，进入 Pages 服务
-3. 点击"创建项目"，连接您的 GitHub 仓库
-4. 使用以下设置：
-   - 构建命令：留空（无需构建）
-   - 输出目录：留空（默认为根目录）
-5. **⚠️ 重要：在"设置" > "环境变量"中添加 `PASSWORD` 变量**
-6. **可选：在"Settings" > "Environment Variables"中添加 `ADMINPASSWORD` 变量**
-7. 点击"保存并部署"
+1. Fork 或克隆本倉庫到您的 GitHub 賬戶
+2. 登錄 [Cloudflare Dashboard](https://dash.cloudflare.com/)，進入 Pages 服務
+3. 點擊"創建項目"，連接您的 GitHub 倉庫
+4. 使用以下設置：
+   - 構建命令：留空（無需構建）
+   - 輸出目錄：留空（默認為根目錄）
+5. **⚠️ 重要：在"設置" > "環境變量"中添加 `PASSWORD` 變量**
+6. **可選：在"Settings" > "Environment Variables"中添加 `ADMINPASSWORD` 變量**
+7. 點擊"保存並部署"
 
 ### Vercel
 
-1. Fork 或克隆本仓库到您的 GitHub/GitLab 账户
-2. 登录 [Vercel](https://vercel.com/)，点击"New Project"
-3. 导入您的仓库，使用默认设置
-4. **⚠️ 重要：在"Settings" > "Environment Variables"中添加 `PASSWORD` 变量**
-5. **可选：在"Settings" > "Environment Variables"中添加 `ADMINPASSWORD` 变量**
-6. 点击"Deploy"
-7. 可选：在"Settings" > "Environment Variables"中配置密码保护和设置按钮密码保护
+1. Fork 或克隆本倉庫到您的 GitHub/GitLab 賬戶
+2. 登錄 [Vercel](https://vercel.com/)，點擊"New Project"
+3. 導入您的倉庫，使用默認設置
+4. **⚠️ 重要：在"Settings" > "Environment Variables"中添加 `PASSWORD` 變量**
+5. **可選：在"Settings" > "Environment Variables"中添加 `ADMINPASSWORD` 變量**
+6. 點擊"Deploy"
+7. 可選：在"Settings" > "Environment Variables"中配置密碼保護和設置按鈕密碼保護
 
 ### Render
 
-1. Fork 或克隆本仓库到您的 GitHub 账户
-2. 登录 [Render](https://render.com/)，点击 "New Web Service"
-3. 选择您的仓库，Render 会自动检测到 `render.yaml` 配置文件
-4. 保持默认设置（无需设置环境变量，默认不启用密码保护）
-5. 点击 "Create Web Service"，等待部署完成
-6. 部署成功后即可访问您的 LibreTV 实例
+1. Fork 或克隆本倉庫到您的 GitHub 賬戶
+2. 登錄 [Render](https://render.com/)，點擊 "New Web Service"
+3. 選擇您的倉庫，Render 會自動檢測到 `render.yaml` 配置文件
+4. 保持默認設置（無需設置環境變量，默認不啟用密碼保護）
+5. 點擊 "Create Web Service"，等待部署完成
+6. 部署成功後即可訪問您的 LibreTV 實例
 
-> 如需启用密码保护，可在 Render 控制台的环境变量中手动添加 `PASSWORD` 和/或 `ADMINPASSWORD`。
+> 如需啟用密碼保護，可在 Render 控制台的環境變量中手動添加 `PASSWORD` 和/或 `ADMINPASSWORD`。
 
 ### Docker
 ```
@@ -121,102 +121,102 @@ services:
     image: bestzwei/libretv:latest
     container_name: libretv
     ports:
-      - "8899:8080" # 将内部 8080 端口映射到主机的 8899 端口
+      - "8899:8080" # 將內部 8080 端口映射到主機的 8899 端口
     environment:
-      - PASSWORD=${PASSWORD:-your_password} # 可将 your_password 修改为你想要的密码，默认为 your_password
-      - ADMINPASSWORD=${PASSWORD:-your_adminpassword} # 可将 your_adminpassword 修改为你想要的密码，默认为 your_adminpassword
+      - PASSWORD=${PASSWORD:-your_password} # 可將 your_password 修改為你想要的密碼，默認為 your_password
+      - ADMINPASSWORD=${PASSWORD:-your_adminpassword} # 可將 your_adminpassword 修改為你想要的密碼，默認為 your_adminpassword
     restart: unless-stopped
 ```
-启动 LibreTV：
+啟動 LibreTV：
 
 ```bash
 docker compose up -d
 ```
-访问 `http://localhost:8899` 即可使用。
+訪問 `http://localhost:8899` 即可使用。
 
-### 本地开发环境
+### 本地開發環境
 
-项目包含后端代理功能，需要支持服务器端功能的环境：
+項目包含後端代理功能，需要支持服務器端功能的環境：
 
 ```bash
-# 首先，通过复制示例来设置 .env 文件（可选）
+# 首先，通過覆制示例來設置 .env 文件（可選）
 cp .env.example .env
 
-# 安装依赖
+# 安裝依賴
 npm install
 
-# 启动开发服务器
+# 啟動開發服務器
 npm run dev
 ```
 
-访问 `http://localhost:8080` 即可使用（端口可在.env文件中通过PORT变量修改）。
+訪問 `http://localhost:8080` 即可使用（端口可在.env文件中通過PORT變量修改）。
 
-> ⚠️ 注意：使用简单静态服务器（如 `python -m http.server` 或 `npx http-server`）时，视频代理功能将不可用，视频无法正常播放。完整功能测试请使用 Node.js 开发服务器。
+> ⚠️ 注意：使用簡單靜態服務器（如 `python -m http.server` 或 `npx http-server`）時，視頻代理功能將不可用，視頻無法正常播放。完整功能測試請使用 Node.js 開發服務器。
 
-## 🔧 自定义配置
+## 🔧 自定義配置
 
-### 密码保护
+### 密碼保護
 
-要为您的 LibreTV 实例添加密码保护，可以在部署平台上设置环境变量：
+要為您的 LibreTV 實例添加密碼保護，可以在部署平台上設置環境變量：
 
-**环境变量名**: `PASSWORD` 
-**值**: 您想设置的密码
+**環境變量名**: `PASSWORD` 
+**值**: 您想設置的密碼
 
-**环境变量名**: `ADMINPASSWORD` 
-**值**: 您想设置的密码
+**環境變量名**: `ADMINPASSWORD` 
+**值**: 您想設置的密碼
 
-各平台设置方法：
+各平台設置方法：
 
-- **Cloudflare Pages**: Dashboard > 您的项目 > 设置 > 环境变量
-- **Vercel**: Dashboard > 您的项目 > Settings > Environment Variables
-- **Netlify**: Dashboard > 您的项目 > Site settings > Build & deploy > Environment
-- **Docker**: 修改 `docker run` 中 `your_password` 为你的密码
-- **Docker Compose**: 修改 `docker-compose.yml` 中的 `your_password` 为你的密码
-- **本地开发**: SET PASSWORD=your_password
+- **Cloudflare Pages**: Dashboard > 您的項目 > 設置 > 環境變量
+- **Vercel**: Dashboard > 您的項目 > Settings > Environment Variables
+- **Netlify**: Dashboard > 您的項目 > Site settings > Build & deploy > Environment
+- **Docker**: 修改 `docker run` 中 `your_password` 為你的密碼
+- **Docker Compose**: 修改 `docker-compose.yml` 中的 `your_password` 為你的密碼
+- **本地開發**: SET PASSWORD=your_password
 
 ### API兼容性
 
-LibreTV 支持标准的苹果 CMS V10 API 格式。添加自定义 API 时需遵循以下格式：
-- 搜索接口: `https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词`
-- 详情接口: `https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID`
+LibreTV 支持標準的蘋果 CMS V10 API 格式。添加自定義 API 時需遵循以下格式：
+- 搜索接口: `https://example.com/api.php/provide/vod/?ac=videolist&wd=關鍵詞`
+- 詳情接口: `https://example.com/api.php/provide/vod/?ac=detail&ids=視頻ID`
 
 **添加 CMS 源**:
-1. 在设置面板中选择"自定义接口"
+1. 在設置面板中選擇"自定義接口"
 2. 接口地址: `https://example.com/api.php/provide/vod`
 
-## ⌨️ 键盘快捷键
+## ⌨️ 鍵盤快捷鍵
 
-播放器支持以下键盘快捷键：
+播放器支持以下鍵盤快捷鍵：
 
-- **空格键**: 播放/暂停
-- **左右箭头**: 快退/快进
-- **上下箭头**: 音量增加/减小
-- **M 键**: 静音/取消静音
-- **F 键**: 全屏/退出全屏
-- **Esc 键**: 退出全屏
+- **空格鍵**: 播放/暫停
+- **左右箭頭**: 快退/快進
+- **上下箭頭**: 音量增加/減小
+- **M 鍵**: 靜音/取消靜音
+- **F 鍵**: 全屏/退出全屏
+- **Esc 鍵**: 退出全屏
 
-## 🛠️ 技术栈
+## 🛠️ 技術棧
 
 - HTML5 + CSS3 + JavaScript (ES6+)
 - Tailwind CSS
-- HLS.js 用于 HLS 流处理
-- DPlayer 视频播放器核心
+- HLS.js 用於 HLS 流處理
+- DPlayer 視頻播放器核心
 - Cloudflare/Vercel/Netlify Serverless Functions
-- 服务端 HLS 代理和处理技术
-- localStorage 本地存储
+- 服務端 HLS 代理和處理技術
+- localStorage 本地存儲
 
-## ⚠️ 免责声明
+## ⚠️ 免責聲明
 
-LibreTV 仅作为视频搜索工具，不存储、上传或分发任何视频内容。所有视频均来自第三方 API 接口提供的搜索结果。如有侵权内容，请联系相应的内容提供方。
+LibreTV 僅作為視頻搜索工具，不存儲、上傳或分發任何視頻內容。所有視頻均來自第三方 API 接口提供的搜索結果。如有侵權內容，請聯系相應的內容提供方。
 
-本项目开发者不对使用本项目产生的任何后果负责。使用本项目时，您必须遵守当地的法律法规。
+本項目開發者不對使用本項目產生的任何後果負責。使用本項目時，您必須遵守當地的法律法規。
 
-## 🎉 贡献者福利
+## 🎉 貢獻者福利
 
-活跃贡献者可以在 [Issue #268](https://github.com/LibreSpark/LibreTV/issues/268) 中留言，申请免费上车 1Password Team，享受团队协作工具的便利！
+活躍貢獻者可以在 [Issue #268](https://github.com/LibreSpark/LibreTV/issues/268) 中留言，申請免費上車 1Password Team，享受團隊協作工具的便利！
 
-## 💝 支持项目
+## 💝 支持項目
 
-如果您想支持本项目，可以考虑进行捐款：
+如果您想支持本項目，可以考慮進行捐款：
 
-[![捐赠](https://img.shields.io/badge/爱心捐赠-无国界医生-1a85ff?style=for-the-badge&logo=medical-cross)](https://www.msf.hk/zh-hant/donate/general?type=one-off)
+[![捐贈](https://img.shields.io/badge/愛心捐贈-無國界醫生-1a85ff?style=for-the-badge&logo=medical-cross)](https://www.msf.hk/zh-hant/donate/general?type=one-off)
